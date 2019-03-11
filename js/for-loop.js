@@ -46,11 +46,21 @@
 // console.log(`Sum = ${sum}`);
 
 // --------Exercise #4
-let number1;
-let sum = 0;
-while (number1 !== 0){
-    number1 = +prompt('Enter first number', '');
-    sum += number1;
-    console.log(`Sum = ${sum} , number1 = ${number1}`);
+// let number1;
+// let sum = 0;
+// while (number1 !== 0){
+//     number1 = +prompt('Enter first number', '');
+//     sum += number1;
+//     console.log(`Sum = ${sum} , number1 = ${number1}`);
+// }
+// console.log(`Sum = ${sum}`);
+// --------Exercise #4
+
+let x = 2;
+
+function f() {
+    let x = 10;
+
 }
-console.log(`Sum = ${sum}`);
+
+console.log(x);
